@@ -8,7 +8,7 @@ from google.genai import types
 # ========================
 # HARD-CODED API KEY FOR TESTING (⚠ Not safe for production)
 # ========================
-api_key = "AIzaSyD_IBcRgCc4n3jk5_-RAD4n7OXsTslxvRs"
+api_key = ""
 client = genai.Client(api_key=api_key)
 
 # ========================
@@ -98,3 +98,4 @@ while True:
 
     # === Step 7: Wait before next scan ===
     time.sleep(2)
+
